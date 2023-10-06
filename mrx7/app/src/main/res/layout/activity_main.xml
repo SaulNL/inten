@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!-- Botón para calcular la raíz cuadrada -->
+    <Button
+        android:id="@+id/btnRaizCuadrada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Raíz Cuadrada" />
+
+    <!-- Botón para calcular la potencia -->
+    <Button
+        android:id="@+id/btnPotencia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Potencia" />
+
+    <!-- Botón para convertir Dólares a Pesos Mexicanos -->
+    <Button
+        android:id="@+id/btnDolaresPesos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dólares a Pesos" />
+
+    <!-- Botón para calcular el radio -->
+    <Button
+        android:id="@+id/btnRadio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Radio" />
+
+    <!-- Botón para calcular el área de un cuadrado -->
+    <Button
+        android:id="@+id/btnAreaCuadrado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Área de Cuadrado" />
+</LinearLayout>
